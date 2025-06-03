@@ -82,7 +82,7 @@ Google의 MobileBERT 모델을 파인튜닝하여 감성 분류기를 구현하�
 
 ### 📈 리뷰 점수 분포
 > 리뷰 대부분이 긍정적 (7~10점)으로 분포
- - <img src="review.png">
+<img src="review.png">
 
  * ### 분석 데이터
        
