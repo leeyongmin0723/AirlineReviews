@@ -1,5 +1,5 @@
 # ✈️ AirlineSent  
-![header](https://capsule-render.vercel.app/api?type=waving&color=4B89DC&height=300&section=header&text=AirlineSent&fontSize=80&animation=fadeIn&fontAlignY=36&descSize=25&desc=Sentiment%20Analysis%20and%20Evaluation%20of%20Airline%20Reviews&descAlignY=53&fontColor=FFFFFF)
+![header](https://capsule-render.vercel.app/api?type=waving&color=4B89DC&height=300&section=header&text=Airline%20Reviews&fontSize=80&animation=fadeIn&fontAlignY=36&descSize=25&desc=Sentiment%20Analysis%20and%20Evaluation%20of%20Airline%20Reviews&descAlignY=53&fontColor=FFFFFF)
 
 > MobileBERT를 활용한 항공사 리뷰 감성 분류 및 종합 분석  
 > 항공사별 평점, 긍정률, 일관성 기반 종합 평가
@@ -217,7 +217,7 @@ Google의 MobileBERT 모델을 파인튜닝하여 감성 분류기를 구현하�
 
 
 ---
-## 마무리 멘트
+## 7. 마무리 멘트
 이번 프로젝트에 MobileBERT 모델을 활용하여 항공사 리뷰 데이터 기반으로
 감정을 긍정과 부정으로 분류하는 감성 분석 모델을 개발하였다.
 이러한 과정을 통해서 자연어 처리(NLP)와 사전학습 언어모델을 실제 Kaggle 사이트에 업로드 되어있는 데이터에 적용 시켜보며 실질적인 경험을 할 수 있었다.
