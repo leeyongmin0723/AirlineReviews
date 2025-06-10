@@ -10,7 +10,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Using device:", device)
 
 # 데이터 로드
-df = pd.read_csv("AirlineReviews_EngClean_1-2vs9-10_remaining.csv")
+df = pd.read_csv("data/AirlineReviews_EngClean_1-2vs9-10_remaining.csv")
 df = df[df['Review'].notna()]  # 결측치 제거
 
 texts = df['Review'].astype(str).tolist()

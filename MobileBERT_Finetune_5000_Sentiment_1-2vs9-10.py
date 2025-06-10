@@ -11,7 +11,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Using device:", device)
 
 # 데이터 불러오기
-df = pd.read_csv("AirlineReviews_EngClean_1-2vs9-10_5000.csv")
+df = pd.read_csv("data/AirlineReviews_EngClean_1-2vs9-10_5000.csv")
 texts = df["Review"].astype(str).tolist()
 labels = df["label"].tolist()
 
