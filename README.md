@@ -1,6 +1,7 @@
 # ✈️ AirlineSent  
 ![header](https://capsule-render.vercel.app/api?type=waving&color=4B89DC&height=300&section=header&text=AirlineSent&fontSize=80&animation=fadeIn&fontAlignY=36&descSize=25&desc=Sentiment%20Analysis%20and%20Evaluation%20of%20Airline%20Reviews&descAlignY=53&fontColor=FFFFFF)
 
+
 > MobileBERT를 활용한 항공사 리뷰 감성 분류 및 종합 분석  
 > 항공사별 평점, 긍정률, 일관성 기반 종합 평가
 
@@ -172,7 +173,7 @@ Google의 MobileBERT 모델을 파인튜닝하여 감성 분류기를 구현하�
 
  - 각 단계의 loss와 Accuracy의 평균을 내어 나타내보면 아래와 같다. 
 
-    | step                    | 1            | 4       | 7      | 10      |
+    | step                    | Epoch 1      | Epoch 4       | Epoch 7      | Epoch 10      |
     |-------------------------|--------------|---------|--------|---------|
     | loss                    | 0.685        | 0.621   | 0.574  | 0.569   |
     | Train loss              | 29337147.910 | 127.515 | 98.127 | 93.8408 |
@@ -233,3 +234,5 @@ GitHub로 결과 보고서를 작성하는 것도 프로젝트의 체계적인 �
 정말 도움이 많이 됐던 경험이었다.
 
 ---
+
+![header](https://capsule-render.vercel.app/api?type=waving&color=4B89DC&height=300&section=header&text=서동찬의%20위플래시&fontSize=80&animation=fadeIn&fontAlignY=36&descSize=25&desY=53&fontColor=FFFFFF)
