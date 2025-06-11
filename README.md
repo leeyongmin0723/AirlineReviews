@@ -199,7 +199,7 @@ Google의 MobileBERT 모델을 파인튜닝하여 감성 분류기를 구현하�
    - Weighted F1-score: 0.86 → 실제 분포를 반영한 가중 평균도 높음
 
    
-##  연도별 분석 결과를 리뷰와 비교한 결론
+##  * 연도별 분석 결과를 리뷰와 비교한 결론
 - 높은 평균 점수를 받은 항공사들이 실제로도 **긍정 리뷰 비중이 높은 경우가 많았습니다.**
 - 다만 일부 항공사는 평균 점수가 높아도 **부정 리뷰가 꽤 많거나, 긍정 리뷰가 부족한 경우도 존재**했습니다.
 - 따라서 점수만이 아니라 리뷰 수와 감정 분포를 함께 고려한 분석이 중요합니다.
@@ -234,5 +234,3 @@ GitHub로 결과 보고서를 작성하는 것도 프로젝트의 체계적인 �
 정말 도움이 많이 됐던 경험이었다.
 
 ---
-
-![header](https://capsule-render.vercel.app/api?type=waving&color=4B89DC&height=300&section=header&text=서동찬의%20위플래시&fontSize=80&animation=fadeIn&fontAlignY=36&descSize=25&desY=53&fontColor=FFFFFF)
