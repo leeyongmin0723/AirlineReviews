@@ -1,6 +1,6 @@
-# ✈️ AirlineSent  
+# ✈️ AirlineSent
 ![header](https://capsule-render.vercel.app/api?type=waving&color=4B89DC&height=300&section=header&text=AirlineSent&fontSize=80&animation=fadeIn&fontAlignY=36&descSize=25&desc=Sentiment%20Analysis%20and%20Evaluation%20of%20Airline%20Reviews&descAlignY=53&fontColor=FFFFFF)
-
+    
 
 > MobileBERT를 활용한 항공사 리뷰 감성 분류 및 종합 분석  
 > 항공사별 평점, 긍정률, 일관성 기반 종합 평가
@@ -92,9 +92,9 @@ Google의 MobileBERT 모델을 파인튜닝하여 감성 분류기를 구현하�
 ### 분석 데이터
        
  - 분석을 위해 평점이 **9~10**인 리뷰에는 레이블 1(긍정)을 평점이 **1~2** 인 리뷰에는 레이블 0(부정)을 부여하고 나머지 평점들은 전부 삭제한 후,
-   'Review text','label' 데이터로 새로운 데이터셋을 만들었다.
+   'Review text','label' 데이터로 새로운 데이터셋을 만들었다. 
 
-      | index | Review text                                      | label |
+      | index | Review text                                      | label |   
       |-------|--------------------------------------------------|-------|
       | 1     | Holguin to Havana last week. Okay apart from ... | 0     |A great read to continue the Bride Train serie...| 
       | ...   | ...                                              | ...   
@@ -180,7 +180,7 @@ Google의 MobileBERT 모델을 파인튜닝하여 감성 분류기를 구현하�
     | Train<br/>Accuracy      | 0.5630       | 0.7660  | 0.8295 | 0.8580  |
     | Validation<br/>Accuracy | 0.5920       | 0.8080  | 0.8580 | 0.8620  |
 
- 모델은 총 10 에포크(epoch)에 걸쳐 학습되었으며, 학습 정확도(Train Accuracy)와 검증 정확도(Validation Accuracy) 모두 높은 수준에서 수렴하는 모습을 보였다.
+ 모델은 총 10 에포크(epoch)에 걸쳐 학습되었으며, 학습 정확도(Train Accuracy)와 검증 정확도(Validation Accuracy) 모두 0.85% 이상 나왔다.
 - 최종 Train Accuracy: 83.1%
 
 - 최종 Validation Accuracy: 86.2%
